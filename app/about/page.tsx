@@ -1,5 +1,7 @@
 import { About } from '../../src/views/about/about';
 
-export default function AboutPage() {
+const AboutPage = () => {
   return <About />;
-}
+};
+
+export default AboutPage;

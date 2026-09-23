@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'A creative studio specializing in motion and digital experiences.',
 };
 
-export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
+const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html lang="en">
       <body>
@@ -16,4 +16,6 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
